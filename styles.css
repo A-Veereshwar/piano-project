@@ -1,0 +1,80 @@
+.great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #f40717;
+    font-size: 70px;
+    text-shadow: 3px 0 #6fd7c6;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #1064e280;
+  }
+body{
+    text-align: center;
+    background-image: url("./images/piano-bw-keys-musical-instrument.jpg");
+}
+.key {
+  outline: none;
+  outline: 2px ridge black;
+  box-shadow: 10px 10px 20px rgb(255, 255, 255);
+  line-height:1;
+  font-weight: 400;
+  color: #f407d1;
+  text-shadow: 5px 0 #6fd7c6;
+  border-radius: 15px;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: white;
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+}
+footer{
+  color: #065272;
+  text-shadow: 1pt 0 #6fd7c6; 
+  float: right;
+  font-size: 20px;
+} 
+.allkeys{
+  margin: 20px;
+}
+.q{
+  background-color: black;
+}
+.e{
+  background-color: black;
+}
+.t{
+  background-color: black;
+}
+.i{
+  background-color: black;
+}
+.p{
+  background-color: black;
+}
+.s{
+  background-color: black;
+}
+.f{
+  background-color: black;
+}
+.h{
+  background-color: black;
+}
+.k{
+  background-color: black;
+}
+.z{
+  background-color: black;
+}
+.c{
+  background-color: black;
+}
+.n{
+  background-color: black;
+}
