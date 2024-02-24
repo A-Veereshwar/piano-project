@@ -78,3 +78,7 @@ footer{
 .n{
   background-color: black;
 }
+.active{
+  box-shadow: 4px 4px 4px 0 #f407d1;
+  opacity: 0.8;
+}
