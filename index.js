@@ -5,12 +5,14 @@ for(var i=0;i<numberOfKeys;i++){
     {
         var keyAlphaValue = this.innerHTML;
         tuneOutput(keyAlphaValue);
+        buttonAnimation(keyAlphaValue);
     })
 }
 //Keys on KeyBoard Click
 document.addEventListener("keypress",function(event){
     var keyPressed = event.key;
     tuneOutput(keyPressed);
+    buttonAnimation(keyPressed);
 })
 //24 different Tune sounds
 function tuneOutput(key){
@@ -136,4 +138,12 @@ function tuneOutput(key){
 
         default:;
     }
+}
+function buttonAnimation(key){
+    var clickedBtn = document.querySelector("."+key);
+    clickedBtn.classList.add("active");
+
+    setTimeout(function(){
+        clickedBtn.classList.remove("active");
+    },100);
 }
